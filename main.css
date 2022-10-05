@@ -1,0 +1,181 @@
+.background {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    left: 0;
+}
+
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.background_page {
+    position: absolute;
+    top: 150vw;
+    width: 100vw;
+    left: 0;
+    height: 480vw;
+    background-color: white;
+}
+
+body {
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+.home_bg {
+    position: absolute;
+    top: 130vw;
+    width: 100vw;
+    left: 0;
+}
+
+.menu_box {
+    height: auto;
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    top: 145vw;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.menu {
+    width: 25vw;
+    height: 25vw;
+    border-radius: 12.5vw;
+    background-color: #EEC800;
+    color: white;
+    margin: 3vw;
+    text-align: center;
+    line-height: 25vw;
+    font-size: 5vw;
+}
+
+.menu:hover {
+    background-color: #c2a200;
+    cursor: pointer;
+}
+
+.title {
+    margin: 3vw auto;
+}
+
+.caption {
+    font-size: 4vw;
+    color: rgb(184, 184, 184);
+}
+
+#time_table {
+    position: absolute;
+    top: 180vw;
+    color: gray;
+    text-align: center;
+    width: 100vw;
+    left: 0;
+    font-size: 10vw;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+
+#area_map {
+    position: absolute;
+    top: 450vw;
+    color: gray;
+    text-align: center;
+    width: 100vw;
+    left: 0;
+    font-size: 10vw;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+
+.outdoor_table a {
+    border-bottom: solid 2px rgb(255, 207, 118);
+}
+
+.indoor_table a {
+    border-bottom: solid 2px rgb(113, 145, 182);
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 6.5vw;
+    width: 85vw;
+}
+
+td {
+    height: 12vw;
+    border: 0;
+    border-bottom: 4px solid white;
+    padding: 0.3em;
+    line-height: 12vw;
+}
+
+.stage {
+    font-size: 5.5vw;
+    font-family: 'RocknRoll One', sans-serif;
+    line-height: 8vw;
+    margin-top: 5vw;
+    margin-bottom: 1vw;
+}
+
+.outdoor_table td {
+	background: #fff;
+}
+.outdoor_table tr:nth-child(odd) td {
+	background: #fffae8;
+}
+
+.indoor_table td {
+	background: #fff;
+}
+.indoor_table tr:nth-child(odd) td {
+	background: rgb(216, 233, 255);
+}
+
+
+.lastrow td {
+    border: 0;
+}
+
+.japanese {
+    font-size: 6vw;
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+.area_map_img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.caption_ja {
+    width: 80vw;
+    margin: 3vw auto;
+    text-align: left;
+    font-size: 3vw;
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+.footer {
+    position: absolute;
+    top: 630vw;
+    left: 0;
+    width: 100vw;
+    height: 30vw;
+    background-color: rgb(128, 128, 128);
+    color: white;
+    line-height: 30vw;
+    text-align: center;
+}
