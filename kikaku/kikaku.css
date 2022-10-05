@@ -67,18 +67,18 @@ img {
 .copy {
     width: 80vw;
     margin: 10vw auto;
-    font-size: 7vw;
+    font-size: 6vw;
     line-height: 9vw;
     font-family: 'RocknRoll One', sans-serif;
 }
 
 .large {
-    font-size: 10vw;
+    font-size: 9vw;
     line-height: 11vw;
 }
 
 .medium {
-    font-size: 8vw;
+    font-size: 7vw;
     line-height: 10vw;
 }
 
