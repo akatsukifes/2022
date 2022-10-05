@@ -5,7 +5,7 @@ html {
 body {
     text-align: center;
     font-family: 'ヒラギノ角ゴシック','Hiragino Sans','YuGothic','Yu Gothic',sans-serif;
-    color: rgb(99, 99, 99);
+    color: rgb(130, 130, 130);
     font-weight: bold;
     padding: 0;
     margin: 0;
@@ -72,9 +72,19 @@ img {
     font-family: 'RocknRoll One', sans-serif;
 }
 
+.large {
+    font-size: 10vw;
+    line-height: 11vw;
+}
+
+.medium {
+    font-size: 8vw;
+    line-height: 10vw;
+}
+
 .list {
     font-size: 6vw;
-    line-height: 10vw;
+    line-height: 14vw;
 }
 
 .subtitle {
@@ -83,16 +93,33 @@ img {
     margin-top: 8vw;
     margin-bottom: 3vw;
     color: #EEC800;
-    width: 100vw;
     height: 20vw;
     font-weight: 900;
+    text-align: center;
 }
 
-hr {
+.comment {
+    margin: 3vw auto;
+    width: 80vw;
+    font-size: 5vw;
+    line-height: 8vw;
+    font-family: 'RocknRoll One', sans-serif;
+
+}
+
+/* hr {
     width: 50vw;
     color: gray;
     margin: auto;
     border-style: dotted;
+} */
+
+hr {
+    margin: 0 auto;
+    width: 60vw;
+    border-width: 1px;
+    border-style: dashed;
+    color: rgb(255, 207, 118);
 }
 
 .long-text {
@@ -126,6 +153,5 @@ hr {
 }
 
 .space {
-    width: 100vw;
     height: 30vw;
 }
